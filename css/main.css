@@ -1,0 +1,111 @@
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+    background: #03e8e2;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin: 0;
+    position: relative;
+}
+
+header {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.link {
+    color: #6699ff;
+}
+
+footer {
+    color: #029793;
+    font-size: 0.8em;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.main {
+    margin-top: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3em;
+    margin: 0;
+    font-weight: 300;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+pre.code {
+    background: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    border-radius: 4px;
+    margin: 30px auto;
+    overflow: auto;
+    width: 80%;
+    font-size: 0.8em;
+    max-width: 750px;
+    padding: 10px;
+}
+
+.btn {
+    border: 0;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px 3px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    color: #3e3e3e;
+    padding: 10px 12px;
+}
+
+.btn-group {
+    margin: 0 -20px 30px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: all 1s;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.6);
+    color: #3e3e3e;
+    position: relative;
+}
+
+.box .box-txt {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+}
+
+.box-dark {
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+}
+
+.box-tall {
+    height: 300px;
+}
+
+.box-rotate {
+    transform: rotate(225deg);
+}
+
+.box-scale {
+    transform: scale(.5) translateY(-50px);
+}
